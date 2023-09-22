@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========= Title icon ========== -->
+
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+
+   <!-- ========= styles ========== -->
+
+   <link rel="stylesheet" href="/files/styles/home.css">
+    <link rel="stylesheet" href="/files/styles/style.css">
+
+    <!-- ============== Fontawesome from cdnjs =============== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!-- ======== Bootstrap for our mobile navigation-->
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  
+    <!---======== Title ===========-->
+    <title>Online education is shaping the world</title>
+</head>
+<body>
+
+    <!-- ============  Header Section  ========-->
+
+    <header>
+       <nav class="top-nav">
+        <div class="logo-div">
+            <a href="/" class="logo-link">
+                <img width="50px" src="./images/logo.png" alt="Global School" class="logo">
+            </a>
+        </div>
+        <div class="slogan-div">
+            <h3 class="slogan">Empowering minds, Inspiring future!</h3>
+        </div>
+       </nav>
+       <nav class="navbar navbar-dark" id="Navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Global School</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Global School</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/about/">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/courses/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="/courses/english/">English Language</a></li>
+                        <li><a class="dropdown-item" href="/courses/graphic_design/">Graphic Design</a></li>
+                        <li> 
+                        <li><a class="dropdown-item" href="/courses/content_writing/">Content Writing</a></li>
+                        <li><a class="dropdown-item" href="/courses/web_design/">Web Design</a></li>
+                        <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="https://medium.com/">Resources</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/account/#login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/account/#sign_up">Sign up</a>
+                    </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+       <nav class="navbar-local">
+        <div class="school-name">
+            <a href="/" class="school">
+                Global School
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-items">
+                <a href="/" class="nav-links">Home</a>
+            </li>
+            <li class="nav-items">
+                <a href="/about" class="nav-links">About</a>
+            </li>
+            <li class="nav-items">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="/courses" id="courses" class="nav-links">Courses <i class="fas fa-chevron-down"></i></a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/courses/content_writing/" class="nav-links">Content Writing</a>
+                        <a href="/courses/english/" class="nav-links">Learn English</a>
+                        <a href="/courses/graphic_design/" class="nav-links">Graphic Design</a>
+                        <a href="/courses/web_design/" class="nav-links">Web Design</a>
+                    </div>
+                  </div>
+            </li>
+            <li class="nav-items" id="account">
+                <a href="/account/#login" class="login-link">Login</a>
+            </li>
+        </ul>
+       </nav>
+    </header>
+
+    <!-- =============    main content area =============== -->
+
+
+    <main>
+        <div class="hero-section">
+            <div class="jumbotron">
+                <h1 class="hero-header">
+                    Together, let's shape a future
+                </h1>
+                <div class="texto">
+                    <p class="hero-text">
+                        That is filled with limitless oportunities <br>
+                        for growth and sucess
+                    </p>
+                </div>
+                <div class="hero-btn">
+                    <a href="/account/#sign_up" class="hero-link">Join now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== Programs section ============ -->
+
+        <section class="Programs">
+            <h1 class="program">
+                Our Programs
+            </h1>
+            <div class="course-list">
+                <h2 class="learn-w">Learn Without Limits</h2>
+                <div class="texto slow">
+                    <p class="p">
+                        In today's digital age, the opportunities for learning are limitless, 
+                        thanks to online courses. Whether you're looking to acquire new skills, 
+                        enhance your knowledge in a specific field, or simply explore a new hobby, 
+                        online courses provide a convenient and flexible way to learn without limits.
+
+                    </p>
+                </div>
+                <div class="griboxes">
+                    <div class="grid">
+                        <div class="details">
+                            <h3 class="absol">English Language</h3>
+                            <img width="100%" src="/images/uk.png" alt="Union Jack">
+                            <div class="abso">
+                                <div class="detail">
+                                    An introductory course to help you develop English 
+                                    vocabulary from basic to intermediate level
+                                </div>
+                                <div class="learn-more">
+                                    <a href="/courses/" class="lear">
+                                        Start learning today
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="details">
+                            <h3 class="absol">Graphic Design</h3>
+                            <img width="100%" src="/images/graphic.jpg" alt="Photoshop">
+                            <div class="abso">
+                                <div class="detail">
+                                    An introduction to Adobe Photoshop and other deign software 
+                                    such as Gimp, Canva, ... 
+                                </div><div class="learn-more">
+                                    <a href="/courses/" class="lear">
+                                        Start learning today
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="details">
+                            <h3 class="absol">Content Writing</h3>
+                            <img width="100%" src="/images/content.jpg" alt="Union Jack">
+                            <div class="abso">
+                                <div class="detail">
+                                    This course is a guide to how to use AI in writing.
+                                    It will introduce you to basic writing.
+                                </div>
+                                <div class="learn-more">
+                                    <a href="/courses/" class="lear">
+                                        Start learning today
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="details">
+                            <h3 class="absol">Web Design</h3>
+                            <img width="100%" src="/images/code.jpg" alt="Union Jack">
+                            <div class="abso">
+                                <div class="detail">
+                                    We will introduce you to web development, 
+                                    introduction with to HTNL, CSS3 and JavaScript.
+                                </div>
+                                <div class="learn-more">
+                                    <a href="/courses/" class="lear">
+                                        Start learning today
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <!-- =============    main content area =============== -->
+
+     
+    <footer>
+        <nav class="bottom">
+          <ul class="foo-menu">
+            <li class="foo-items">
+                <a href="/" class="foo-links">Home</a>
+            </li>
+            <li class="foo-items">
+                <a href="/about/" class="foo-links">About</a>
+            </li>
+            <li class="foo-items">
+                <a href="/courses" class="foo-links">Courses</a>
+            </li>
+            <li class="foo-items">
+                <a href="/account" class="foo-links">Account</a>
+            </li>
+            <li class="foo-items">
+                <a href="/contact/" class="foo-links">contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright">
+            <p class="copytext">© 2023 Global School. All Right Reserved.</p>
+            <div class="foo-image">
+                <img width="100%" src="/images/logo.png" alt="Global School">
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========== Scripts for bootstrapp to work =========== -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <!-- ============ local scripts ===========-->
+
+    <script src="/files/scripts/index.js"></script>
+</body>
+</html>

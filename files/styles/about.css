@@ -1,0 +1,365 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url('/images/about.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* ============= About section ==========*/
+
+.about-title {
+    width:100%;
+    min-height: 80vh;
+    padding:0;
+    margin: 0;
+    position: relative;
+    transition: all 250ms ease-in-out;
+    background-color: rgba(0,0,0,.8);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.det {
+    font-size: 300%;
+    font-weight: 900;
+    color: #3EF0C2;
+    position: relative;
+}
+/* ============ Jumbotron/Hero section ============= */
+.jumbotron {
+    background-color: rgba(250,250,250, .9);
+    padding: 20px;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container,
+.details-section  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.grid {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.grid img {
+    border-radius: 80px 20px 80px 20px;
+    margin: 0 auto;
+}
+
+/* ========== details section ======= */
+
+.Programs {
+    width: 100%;
+    background-color: #3EF0C2;
+    padding: 20px 0;
+    margin: 0;
+    position: relative;
+}
+.sto {
+    padding:20px 0;
+    border-bottom: 10px solid white;
+    border-radius: 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+.story {
+    text-align: center;
+    font-size: 300%;
+}
+.section-grid{
+  width:90%;
+  padding: 20px 10px;
+}
+.gr-img {
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.div {
+    width: 60%;
+    height: 10px;
+}
+.detail-text{
+    width: 90%;
+    border-left: 10px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 110%;
+    font-weight: 600;
+}
+.image {
+    width: 90%;
+    border-right: 10px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.tex {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.team {
+    background-color: rgba(250,0,0,.5);
+    margin: 0;
+    padding: 10px 0;
+    min-height: 70vh;
+}
+.team-details {
+    background-color: rgba(250,0,0,.4);
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 ;
+    border-radius: 10px;
+}
+.descript {
+    width:80%;
+    padding: 10px 20px;
+    background-color: rgba(62,240,194,.8);
+    border-radius:30px 30px  60px 60px ;
+    margin:0 auto;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}
+.descr {
+    padding: 10px 20px;
+}
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    gap:20px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.team-pro {
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+.profile {
+    width:80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:20px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fig {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 8px;
+}
+
+.profile figcaption {
+    color:black;
+    font-weight: 700;
+    margin:10px 0 2px 0;
+    font-size: larger;
+}
+.sml {
+    color: #3EF0C2;
+    font-weight: 500;
+    font-size: medium;
+}
+.f-link {
+    margin: 0;
+    padding: 5px 0;
+}
+.thelink {
+    text-decoration: none;
+    color: #0033FF;
+    font-size: small;
+    font-weight: 400;
+}
+.social {
+    margin: 3px 0;
+    position: relative;
+}
+.soclink {
+    text-decoration: none;
+    margin: 5px;
+    color: #3EF0C2;
+}
+
+
+
+.vision {
+    width:100%;
+    min-height: 80vh;
+    position: relative;
+    background-color: #0033FF;
+    padding: 10px 0;
+}
+.vision-statement {
+    width:90%;
+    margin:0 auto;
+    padding: 10px;
+    position: relative;
+}
+.statement {
+    width: 60%;
+    padding: 15px;
+    font-size: medium;
+    color: white;
+    margin:10px auto;
+    text-align: center;
+    font-weight: 500;
+}
+.statement-support {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support {
+    width: 100%;
+    padding:10px;
+    margin: 0 auto;
+}
+.support h3 {
+  font-size: larger;
+  color: #3EF0C2;
+  font-weight: 700;
+  margin: 10px;
+  text-align: center;
+}
+.goal-details {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.grid {
+    width:90%;
+    margin: 0 auto;
+    padding:10px;
+}
+.goal-text {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
+#contact {
+    width:100%;
+    padding: 10px 0;
+    margin: 0;
+    background-color: white;
+    position: relative;
+    background-image: url('/images/back.jpg');
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    width:90%;
+    margin: 0 auto;
+    position: relative;
+    padding:10px 0;
+}
+.address {
+    width:90%;
+    margin:0 auto;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgba(0,0,0,.6);
+}
+.addr {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.addre {
+    padding:15px;
+    margin:0 auto;
+    text-align: left;
+}
+.addre h3 {
+    color:#3EF0C2;
+}
+.get {
+    padding: 10px;
+}
+.go {
+    padding: 10px;
+}
+.go,
+.socially {
+    margin: 0;
+    list-style: none;
+}
+.glo,
+.solly {
+    padding:0;
+    margin:0;
+}
+.ly,
+.lilly {
+    text-decoration: none;
+    color: white;
+    transition: color 250ms ease-in-out;
+}
+.ly:hover,
+.lilly:hover {
+    color: #0033FF;
+}
+.addre p {
+    color: white;
+    margin: 10px;
+    font-weight: 800;
+}
+.socially {
+    display: flex;
+    padding: 0 10px;
+}
+.lilly {
+    margin: 0 5px;
+    font-size: larger;
+}
+ 

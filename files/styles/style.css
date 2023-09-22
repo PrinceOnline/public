@@ -1,0 +1,202 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+
+/*  ========== header and footer default styling ==============  */
+
+header,
+footer {
+ width: 100%;
+ margin:0;
+ padding: 0;
+ position: relative;
+}
+
+/* ============== Header Section =========== */
+
+
+/* ============= Navigation bar =============================*/
+#Navbar {
+    display: none;
+    background-color: rgba(250,0,0,.5);
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-local {
+    background-color: rgba(250,0,0,.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2rem;
+    width:100%;
+    position: relative;
+}
+
+.school-name {
+    padding: 10px 2rem;
+    margin:0 ;
+    position: relative;
+    max-width: 30%;
+}
+.school {
+    color:white;
+    font-weight: 900;
+    font-size: 150%;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-items {
+    padding: 5px;
+    margin: 0;
+    position: relative;
+}
+.nav-links {
+    color:white;
+    font-weight: 900;
+    font-size: 120%;
+    padding: 10px;
+    transition: all 2.5s ease-in-out;
+    border-radius: 10px;
+}
+.nav-links:hover {
+ border-bottom: 2px solid white;
+}
+
+
+/* ============= Dropdown menu ================*/
+
+.dropbtn {
+    position:relative;
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* ========== The container <div> - needed to position the dropdown content ==========  */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* ========== Dropdown Content (Hidden by Default) =========== */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(250,0,0,.5);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  /* =========== Links inside the dropdown =========== */
+  .dropdown-content a {
+    display: block;
+  }
+  
+
+  /* ========= Show the dropdown menu on hover ============= */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    right: 0;
+}
+ 
+.login-link {
+    font-size: 100%;
+    color: white;
+    padding: 6px 20px;
+    background-color: #0033FF;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+/* ============= main section default styling ==============  */
+
+main {
+    min-height: 100vh;
+    max-width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+/* ======= Hero section ======= */
+
+.hero-section {
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+/* ============= Footer Section ================ */
+
+footer {
+    background-color: black;
+}
+
+.bottom {
+    background-color: transparent;
+}
+.foo-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.foo-items {
+    margin: 5px;
+    position: relative;
+    position: relative;
+}
+.foo-links {
+    color: #3EF0C2;
+    font-weight: 500;
+    transition: color 2.5s ease-in-out;
+}
+.foo-links:hover {
+    color: white;
+}
+.copyright {
+    background-color: #3EF0C2;
+    padding: 10px;
+    position: relative;
+}
+.copytext {
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+.foo-image {
+    width:80px;
+    padding: 10px;
+    position: relative;
+    margin:0 auto;
+}
+
+/* ========= Responsive webdesign ============ */
+
+@media screen and (max-width: 810px){
+    .navbar-local {
+        display: none;
+    }
+    #Navbar {
+        display: block;
+        padding: 0 ;
+    }
+}

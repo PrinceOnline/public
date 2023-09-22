@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========= Local styles ========== -->
+
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+   
+    <!-- ========= Local styles ========== -->
+    <link rel="stylesheet" href="/files/styles/account.css">
+    <link rel="stylesheet" href="/files/styles/style.css">
+
+    <!-- ============== Fontawesome from cdnjs =============== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!-- ======== Bootstrap for our mobile navigation-->
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  
+    <!---======== Title ===========-->
+    <title>Account</title>
+</head>
+<body>
+
+    <!-- ============  Header Section  ========-->
+
+    <header>
+       <nav class="navbar navbar-dark" id="Navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Global School</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Global School</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/about/">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/courses/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="/courses/english/">English Language</a></li>
+                        <li><a class="dropdown-item" href="/courses/graphic_design/">Graphic Design</a></li>
+                        <li> 
+                        <li><a class="dropdown-item" href="/courses/content_writing/">Content Writing</a></li>
+                        <li><a class="dropdown-item" href="/courses/web_design/">Web Design</a></li>
+                        <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="https://medium.com/">Resources</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/account/#login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/account/#sign_up">Sign up</a>
+                    </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+       <nav class="navbar-local">
+        <div class="school-name">
+            <a href="/" class="school">
+                Global School
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-items">
+                <a href="/" class="nav-links">Home</a>
+            </li>
+            <li class="nav-items">
+                <a href="/about" class="nav-links">About</a>
+            </li>
+            <li class="nav-items">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="/courses" id="courses" class="nav-links">Courses <i class="fas fa-chevron-down"></i></a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/courses/content_writing/" class="nav-links">Content Writing</a>
+                        <a href="/courses/english/" class="nav-links">Learn English</a>
+                        <a href="/courses/graphic_design/" class="nav-links">Graphic Design</a>
+                        <a href="/courses/web_design/" class="nav-links">Web Design</a>
+                    </div>
+                  </div>
+            </li>
+            <li class="nav-items" id="account">
+                <a href="/account/#login" class="login-link">Login</a>
+            </li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="container-l">
+                <h1 class="unlock">Unlock your learning adventure toady</h1>
+                <div class="division"></div>
+                <div class="lo-text">
+                   By clicking Login or signup below
+                </div>
+                <div class="logi">
+                    <button class="btn">
+                        <a href="#login" class="loo login">Login</a>
+                    </button>
+                    <button class="btn">
+                        <a href="#sign_up" class="loo sign">Sign up</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== Programs section ============ -->
+
+        <section class="Programs">
+            <div id="login-container">
+                <div class="login-details" id="login">
+                     <h4 class="log">Login to your Global school account</h4>
+                     <form action="/" class="login-form" method="get">
+                           <label class="label" for="email">Email:</label><br>
+                           <input class="mwep" type="email" name="email" id="email" placeholder="Enter your email" required> <br>
+                           <label class="label" for="pwd">Password:</label><br>
+                           <input class="mwep" type="password" name="pwd" id="pwd" placeholder="Enter your Your password" required><br>
+                           <button type="submit" class="loginx">Login</button>
+                     </form>
+                     <div class="google">
+                        <p class="gm">Need an account?</p>
+                        <a href="/account/#sign_up" class="google-link">
+                            register now
+                        </a>
+                     </div>
+                     <div class="google">
+                        <p class="gm">Or login with your Google acccount</p>
+                        <a href="www.google.com" class="google-link">
+                            <i class="fab fa-google"></i>
+                        </a>
+                     </div>
+                </div>
+                <div class="divi"></div>
+                <div class="login-details" id="sign_up">
+                    <h4 class="log">First time here? create one</h4>
+                    <form action="/" class="login-form" method="get">
+                          <label class="label" for="name">Name</label><br>
+                          <input class="mwep" type="text" name="name" placeholder="Enter your full name" rquired><br>
+                          <label class="label" for="email">Email:</label><br>
+                          <input class="mwep" type="email" name="email" id="email" placeholder="Enter your email address"> <br>
+                          <label class="label" for="pwd">Password:</label><br>
+                          <input class="mwep" type="password" name="pwd" id="pwd" placeholder="Enter your Your password" required><br>
+                          <span class="label">Gender:</span><br>
+                          <input class="radios" type="radio" name="male" id="male"><span class="sp">Male </span>
+                          <input class="radios" type="radio" name="gender" id="female"><span class="sp">Female </span>
+                          <input class="radios" type="radio" name="gender" id="other"><span class="sp">Other </span> <br>
+                          <small class="spx">By clicking signup, you agree to our terms and conditions</small>
+                          <br>
+                          <button type="submit" class="loginx">Sign up</button>
+                    </form>
+                    <div class="google">
+                        <p class="gm">Already have an acccount?</p>
+                        <a href="/account/#login" class="google-link">
+                            Login
+                        </a>
+                     </div>
+                    <div class="google">
+                        <p class="gm">Or register with your Google acccount</p>
+                        <a href="www.google.com" class="google-link">
+                            <i class="fab fa-google"></i>
+                        </a>
+                     </div>
+               </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="bottom">
+          <ul class="foo-menu">
+            <li class="foo-items">
+                <a href="/" class="foo-links">Home</a>
+            </li>
+            <li class="foo-items">
+                <a href="/about/" class="foo-links">About</a>
+            </li>
+            <li class="foo-items">
+                <a href="/courses" class="foo-links">Courses</a>
+            </li>
+            <li class="foo-items">
+                <a href="/account" class="foo-links">Account</a>
+            </li>
+            <li class="foo-items">
+                <a href="/contact/" class="foo-links">contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright">
+            <p class="copytext">© 2023 Global School. All Right Reserved.</p>
+            <div class="foo-image">
+                <img width="100%" src="/images/logo.png" alt="Global School">
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========== Scripts for bootstrapp to work =========== -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+</body>
+</html>
