@@ -254,4 +254,18 @@ body {
     min-height: 100vh;
     padding: 20px 0;
     margin:0;
+    width: 100%;
+    background-color: rgba(250,250,250,.8);
+}
+.html-css {
+    min-height: 100vh;
+    padding: 20px 0;
+    margin:0;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+}
+.how_to {
+    background-color: #3EF0C2;
+    margin:0 auto;
+    padding:20px 0;
 }
