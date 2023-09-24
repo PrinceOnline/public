@@ -275,12 +275,6 @@ body {
     margin:0 auto;
     padding:20px 0;
 }
-.intro_to_JS {
-   width: 100%; 
-   min-height: 100vh;
-   padding: 20px 0;
-   background-color: rgba(250,0,0,.5);
-}
 
 .html-header {
     font-size: 200%;
@@ -444,3 +438,28 @@ body {
 }
 
 /* ============ introduction to javascript ================= */
+
+.intro_to_JS {
+    width: 100%; 
+    min-height: 100vh;
+    padding: 20px 0;
+    background-color: rgba(250,0,0,.5);
+ }
+ .javascreipt {
+    width:90%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: rgba(0,0,0,0.5);
+ }
+ .jhead {
+    color:#3EF0C2;
+    font-weight: 700;
+    font-size: 200%;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+ }
+ .js-details {
+    width: 90%;
+    padding: 1rem;
+ }
