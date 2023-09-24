@@ -56,3 +56,17 @@ h4 {
     font-size: 150%;
     margin: 10px;
 }
+
+@media screen and (max-width:768px){
+    .Learnig,
+.components,
+.htm-section,
+.html-css,
+.how_to ,
+.intro_to_JS,
+.howt-events
+.loops,
+.howtouse {
+    width: 100%;
+}
+}
