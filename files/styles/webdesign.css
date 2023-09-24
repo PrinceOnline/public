@@ -36,10 +36,9 @@ body {
     margin: 0;
 }
 .introduction {
-    width: 90%;
+    font-size: 250%;
     margin: 0 auto;
     position: relative;
-    padding: 20px;
 }
 .intro {
     font-size: 250%;
@@ -50,7 +49,7 @@ body {
     text-align: center;
 }
 .intro-video {
-    width: 80%;
+    width: 100%;
     margin:0 auto;
     position: relative;
     padding:0;
@@ -162,7 +161,7 @@ body {
     background-color: rgba(0,0,0,0.1);
 }
 .video {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -176,7 +175,7 @@ body {
     margin: 1rem 0;
 }
 .def {
-    width: 80%;
+    width: 90%;
     font-size: 130%;
     background-color: rgba(0,0,0,0.1);
     padding: 2rem 3rem;
@@ -210,7 +209,7 @@ body {
     font-size: 120%;
 }
 .extra {
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     margin: 1rem auto 0 auto;
     background-color: rgba(0,0,0,0.1);
@@ -281,6 +280,7 @@ body {
     font-weight: 600;
     color: black;
     margin: 20px 0;
+    text-align: center;
 }
 .html-details,
 .html-more {
@@ -307,6 +307,7 @@ body {
     font-size: 180%;
     font-weight: 600;
     margin: 10px;
+    text-align: center ;
 }
 .tag-details {
     padding: 20px;
@@ -321,7 +322,7 @@ body {
 .properties {
     width: 90%;
     margin:0 auto;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     background-color: #3EF0C2;
     font-size: 120%;
@@ -332,7 +333,7 @@ body {
     position: relative;
 }
 .video-ifrane {
-    width: 80%;
+    width: 90%;
     margin:20px auto;
 }
 .watch {
