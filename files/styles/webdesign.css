@@ -253,9 +253,15 @@ body {
 .htm-section {
     min-height: 100vh;
     padding: 20px 0;
-    margin:0;
+    margin:0 auto;
     width: 100%;
     background-color: rgba(250,250,250,.8);
+}
+.html-container {
+    min-height: 100vh;
+    padding: 20px 0;
+    margin:0 auto;
+    width: 90%;
 }
 .html-css {
     min-height: 100vh;
@@ -269,3 +275,172 @@ body {
     margin:0 auto;
     padding:20px 0;
 }
+.intro_to_JS {
+   width: 100%; 
+   min-height: 100vh;
+   padding: 20px 0;
+   background-color: rgba(250,0,0,.5);
+}
+
+.html-header {
+    font-size: 200%;
+    font-weight: 600;
+    color: black;
+    margin: 20px 0;
+}
+.html-details,
+.html-more {
+    min-height: 100vh;
+    width:100%;
+    margin: 0 auto;;
+    padding: 20px;
+    text-align: center;
+}
+.html-small {
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 10px;
+    opacity: .8;
+}
+.html-descr {
+    padding: 20px;
+    width:90%;
+    margin: 0 auto;
+}
+.tags-headers,
+.basic-head,
+.hcp {
+    font-size: 180%;
+    font-weight: 600;
+    margin: 10px;
+}
+.tag-details {
+    padding: 20px;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.html-descr,
+.tag-desc,
+.basic-html,
+.properties {
+    width: 90%;
+    margin:0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #3EF0C2;
+    font-size: 120%;
+}
+.video {
+    width:90%;
+    margin: 0 auto;
+    position: relative;
+}
+.video-ifrane {
+    width: 80%;
+    margin:20px auto;
+}
+.watch {
+    margin: 10px auto;
+}
+.html-small {
+    margin: 10px 0;
+}
+/* ========= HTML and CSS properties ============ */
+.html-css {
+    width:100%;
+    min-height: 100vh;
+    padding: 20px 0;
+    position: relative;
+}
+.hc-propertie {
+    width:90%;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+.hcp {
+    color:white;
+    text-align: center;
+}
+.prop {
+    font-size: 150%;
+    color: white;
+    font-weight: 500;
+}
+.div-prop {
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    font-size: 120%;
+}
+
+/* ========== How to us HTML and CSS ============== */
+
+.how_to {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+.howto-tex {
+    font-size: 180%;
+    font-weight: 600;
+    margin: 10px auto;
+    text-align: center;
+}
+.how-method {
+    width:90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.method {
+    margin: 0 auto;
+    font-size: 120%;
+}
+.howsmall {
+    font-size: larger;
+    margin: 10px 0 20px 0;
+
+}
+
+/*======== How to style a site =======*/
+
+.howtostyle,
+.descrip,
+.tools  {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 110%;
+}
+.howtostyle h3 {
+    font-size: 180%;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+}
+.descrip {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.descrip span {
+    margin: 20px auto;
+    background-color: rgba(0,0,0,0.1);
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+/* ========= tips for styling ========= */
+.moremethod {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.moremethod small {
+    margin: 10px 0
+}
+.tips {
+    padding: 20px;
+}
+
+/* ============ introduction to javascript ================= */
