@@ -23,6 +23,20 @@ body {
     align-items: center;
     flex-direction: row;
 }
+.introduction {
+    text-align: center;
+    width: auto;
+}
+.intro {
+    margin-bottom: 2rem;
+}
+.intro-video {
+    width: 80%;
+    margin: 0 auto;
+}
+.intro-video iframe {
+    margin: auto;
+}
 .wee {
     font-size: 300%;
     color: white;
@@ -34,7 +48,7 @@ body {
 .html-css,
 .how_to ,
 .intro_to_JS,
-.howt-events
+.howt-events,
 .loops,
 .howtouse {
     width: 90%;
@@ -42,6 +56,18 @@ body {
     background-color: white;
     padding: 2rem 1rem;
 }
+.buttona {
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.right-btns {
+    position: relative;
+    padding:0;
+}
+
 h1 {
     font-size: 300%;
 }
@@ -56,7 +82,95 @@ h4 {
     font-size: 150%;
     margin: 10px;
 }
-
+.grd {
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
+.det {
+    padding: 1rem;
+    border: 1px solid black;
+}
+.jhead {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.3);
+}
+.content-details {
+    text-align: center;
+    display: none;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.3);
+}
+#hidden {
+    display: none;
+}
+.showContent .content-details {
+    display: block;
+    background-color: aqua;
+    padding: 2rem 0;
+} 
+.showContent #show {
+    display: none;
+}
+.showContent #hidden {
+    display: block;
+}
+.accordion-btn {
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    font-size: 140%;
+}
+.design {
+    color: blueviolet;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    transition: color 1.5s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+}
+.jus {
+    text-align: center;
+}
+.cdet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    text-align: center;
+}
+.design:hover {
+    color: black;
+}
+.video {
+    padding: 2rem;
+}
+.hoto, .howtostyle
+.dev , .descrip,
+.valid, .content-details,
+.theloops,
+.basic_js,
+.jsx, .html-example, .howto,
+.clicky, .how-method,
+.javascreipt{
+    padding: 0 1rem;
+}
+.click, .tools,
+.inter, .snit,
+.stagy,
+.lool,
+.valid small,
+.xsm,
+.sma{
+    background-color: rgba(0,0,0,0.3);
+    padding: 1rem;
+}
+.hoto small {
+    margin-bottom: 1rem;
+}
 @media screen and (max-width:768px){
     .Learnig,
 .components,
@@ -68,5 +182,11 @@ h4 {
 .loops,
 .howtouse {
     width: 100%;
+}
+.det, .dev, .stagi, .stagy, .lool {
+    padding: .5rem;
+}
+.intro-video {
+    width: 90%;
 }
 }
