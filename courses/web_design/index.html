@@ -757,13 +757,13 @@ h1 {
                         used to validate a user's email address:
                     </small>
                     <div class="how-to-validate">
-                        <pre>
-                        JavaScript
-                        function validateEmail(email) {
-                        var re = /\S+@\S+\.\S+/;
-                        return re.test(email);
-                        }
-                        </pre>
+<pre>
+JavaScript
+function validateEmail(email) {
+var re = /\S+@\S+\.\S+/;
+return re.test(email);
+}
+</pre>
                         <span>
                             This function returns true if the email address is valid, 
                             and false if it is not valid.
@@ -846,12 +846,86 @@ h1 {
             <div class="howtouse" id="objects_and_events">
                 <div class="jse">
                     <h3>The different objects and events in JavaScript</h3>
-
+                    <div class="events">
+                        <div class="inter">
+                            JavaScript has a number of built-in objects and events. 
+                            Objects are used to represent things on a web page, 
+                            such as the document, the window, and the form elements. 
+                            Events are used to detect when something happens on a web page, 
+                            such as when the user clicks on a button or moves the mouse. <br><br>
+                            You can use JavaScript to access and manipulate objects, and to handle events. 
+                            For example, the following code uses JavaScript to change the background 
+                            color of the document when the user clicks on a button:
+                        </div>
+                        <div class="sample">
+                            <small>
+                                function changeBackgroundColor() {
+                                  <br>  document.body.style.backgroundColor = "red";
+                                <br>  }
+                                document.getElementById("button").addEventListener("click", changeBackgroundColor); 
+                            </small>
+                        </div>
+                        <div class="theloops">
+                            <h4>How to create functions and loops in JavaScript</h4>
+                            <div class="lool">
+                                Functions are used to group code together and to make it reusable. 
+                                Loops are used to repeat a block of code until a condition is met.
+                            <br>    To create a function in JavaScript, you use the function keyword. 
+                                To create a loop in JavaScript, you use the for, while, or do...while keywords.
+                            </div>
+                            <br>
+                            <small>
+                                For example, the following code uses a function and a loop to display a list of numbers from 1 to 10:
+                                <br>
+                                function displayNumbers() {
+                                <br>    for (var i = 1; i &#8249;= 10; i++) {
+                                 <br>     console.log(i);
+                                 <br>   }
+                                <br>  }
+                                 <br>  
+                                  displayNumbers();                                  
+                            </small>
+                            <div class="lool">
+                                JavaScript can be used to validate forms to make sure that the user has entered valid data. 
+                                For example, you can use JavaScript to validate that the user has entered a valid email 
+                                address or that they have entered a password that is at least 8 characters long. <br>
+                                To validate a form in JavaScript, you use the document.getElementById() 
+                                method to get a reference to the form element. Then, you use the value property to 
+                                get the value of the form element. Finally, you use a regular expression to validate the 
+                                value of the form element.
+                                <br>
+                                For example, the following code uses JavaScript to 
+                                validate that the user has entered a valid email address:
+                            </div>
+                            <small>
+                                function validateEmail() {
+                                <br>    var email = document.getElementById("email").value;
+                                 <br>   var re = /\S+@\S+\.\S+/;
+                                <br>    if (!re.test(email)) {
+                                <br>      alert("Please enter a valid email address.");
+                                 <br>     return false;
+                               <br>     }
+                                <br>    return true;
+                                <br>  }
+                                <br>  
+                                  document.getElementById("form").addEventListener("submit", validateEmail);
+                                  
+                            </small>
+                            <div class="lool">
+                                This code will display an alert message if the user has not entered a valid email address. The code will also prevent the form from being submitted if the email address is not valid.
+                               <br> These are just a few examples of how to use JavaScript to interact with web pages. JavaScript is a powerful language that can be used to create a wide variety of interactive web applications.
+                               <br> If you are interested in learning more about JavaScript, there are many resources available online and in libraries. There are also many online courses and tutorials that can teach you the basics of JavaScript.
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="loops" id="function_loops">
-
+            <div class="fucnction">
+                <h3 class="jhead">Web development</h3>
+            </div>
         </section>
         <section class="loops" id="form_validation">
 
