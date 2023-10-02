@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
-    <title>This week's Weather Forecast</title>
+    <title>weekly | Know how!</title>
 </head>
 <body>
 
@@ -20,22 +20,34 @@
     <nav class="navigation">
         <div class="lwrapper">
             <a href="/" class="link">
-                <img src="./logo.png" alt="Weather" class="logo">
+                <img height="80" src="./logo.png" alt="Weather" class="logo">
             </a>
         </div>
         <div class="navbar">
             <ul class="nav-menu">
                 <li class="nav-items">
-                    <i class="fas fa-location-dot"></i>
-                    <span id="location">Kenya</span>
+                     <div class="loc">
+                        <small>You are in</small>
+                        <div class="kenya">
+                            <i class="fas fa-location-dot"></i>
+                            <span id="location">Kenya</span>
+                        </div>
+                     </div>
                 </li>
                 <li class="nav-items">
-                    <button type="button">  
+                    <button id="light" type="button">  
                         <i class="fa-regular fa-sun"></i>
+                        <span>Light</span>
                     </button>
-                    <button type="button">  
+                    <button id="dark" type="button">  
                         <i class="fa-regular fa-moon"></i>
+                        <span>Dark</span>
                     </button>
+                </li>
+                <li class="nav-items">
+                    <a href="#contact" class="whatsa">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -45,7 +57,9 @@
    <!-- ============= main section ============== -->
 
    <main id="main">
-    <div id="map"></div>
+        <div id="map">
+            
+        </div>
    </main>
 
    <!-- ============= Footer ============== -->
@@ -53,7 +67,7 @@
 
    <footer>
     <div class="copy">
-        <p>© 2023 Weather.inc. All Right Reserved.</p>
+        <p>© 2023 WEEKLY. ALL RIGHT RESERVED.</p>
     </div>
     <div class="foo-wrapper">
         <p>Designed by:</p>

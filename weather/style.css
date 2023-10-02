@@ -1,33 +1,160 @@
-/* map
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
- */
- #map {
-    height: 100%;
-  }
-  
-  /* 
-   * Optional: Makes the sample page fill the window. 
-   */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .custom-map-control-button {
-    background-color: #fff;
-    border: 0;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
-    margin: 10px;
-    padding: 0 0.5em;
-    font: 400 18px Roboto, Arial, sans-serif;
-    overflow: hidden;
-    height: 40px;
-    cursor: pointer;
-  }
-  .custom-map-control-button:hover {
-    background: rgb(235, 235, 235);
-  }
+* {
+  border:none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+html,
+body {
+  width:100%;
+  padding: 0;
+  margin: 0;
+  min-height: 90vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+}
+header,
+footer {
+  width: 100%;
+  background-color: rgb(41, 5, 75);
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.navigation {
+  width: 90%;
+  padding: 8px 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lwrapper,
+.navbar {
+  padding: 0;
+  position: relative;
+  margin: 0;
+}
+.link {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+}
+.logo {
+  position: relative;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items {
+  padding: 5px;
+  margin: 0;
+}
+.loc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loc small {
+  color: white;
+}
+.kenya {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.fa-location-dot {
+  color: red;
+  padding: 5px;
+}
+#location {
+  color:#0099FF;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.nav-items button {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#dark {
+  display: none;
+}
+.fa-sun {
+  color: white;
+}
+.fa-moon {
+  color: yellow;
+}
+.nav-items button span {
+  color: #0099FF;
+  font-weight: 600;
+  font-size: .6rem;
+  margin: 0 .5rem;
+}
+.whatsa {
+  font-size: 1.2rem;
+  color: white;
+  background-color: forestgreen;
+  padding: 3px 10px;
+  font-weight: 900;
+  border: 2px solid white;
+  border-radius: 12px;
+  transition: all 2s ease-in-out;
+}
+.whatsa:hover {
+  background-color: black;
+  color: #0099FF;
+  border: 2px solid #0099FF;
+}
+#main {
+  width: 100%;
+  min-height: 70vh;
+  padding: 0;
+  position: relative;
+}
+
+/* FOOTER */
+
+.foo-wrapper,
+.copy {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.copy p {
+  color: #0099FF;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.foo-wrapper p {
+  color: white;
+  font-size: .8rem;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+.by {
+  text-decoration: none;
+  position: relative;
+}
+.by button {
+  color:#0099FF;
+  background-color: transparent;
+  border-top: 2px solid #0099FF;
+  padding-top: 5px;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+.by button:hover {
+  color: white;
+}
