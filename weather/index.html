@@ -35,11 +35,11 @@
                      </div>
                 </li>
                 <li class="nav-items">
-                    <button id="light" type="button">  
+                    <button onclick={changeColor()} id="light" type="button">  
                         <i class="fa-regular fa-sun"></i>
                         <span>Light</span>
                     </button>
-                    <button id="dark" type="button">  
+                    <button onclick={removeColor()} id="dark" type="button">  
                         <i class="fa-regular fa-moon"></i>
                         <span>Dark</span>
                     </button>
@@ -56,10 +56,8 @@
 
    <!-- ============= main section ============== -->
 
-   <main id="main">
-        <div id="map">
-            
-        </div>
+   <main>
+
    </main>
 
    <!-- ============= Footer ============== -->
@@ -71,7 +69,7 @@
     </div>
     <div class="foo-wrapper">
         <p>Designed by:</p>
-    <a href="https://web.facebook.com/prince.mwenyemali" class="by" target="_blank">
+    <a href="https://www.facebook.com/prince.mwenyemali" class="by" target="_blank">
         <button>Prince with ❤️</button>
     </a>
     </div>

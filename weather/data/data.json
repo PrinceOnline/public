@@ -1,0 +1,5 @@
+{
+    "countries": ["Burundi", "Congo", "Kenya","Rwanda", "South Sudan", "Tanzania", "Uganda"],
+    "capitals" : ["Gitega", "Kinshasa", "Nairobi","Kigali", "Juba", "Dodoma", "Kampala"],
+    "Cities" : ["Bujumbura", "Lubumbashi", "Mombasa","Butare", "Wau", "Dar es Salam", "Mbarara"]   
+}
