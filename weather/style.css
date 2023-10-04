@@ -91,11 +91,15 @@ footer {
 .coloured #dark {
   display: block;
 }
+#light {
+  flex-direction: column;
+}
 .coloured #light {
   display: none;
 }
 #dark {
   display: none;
+  flex-direction: column;
 }
 .fa-sun {
   color: white;
@@ -104,7 +108,7 @@ footer {
   color: yellow;
 }
 .nav-items button span {
-  color: #0099FF;
+  color: #9db4c4;
   font-weight: 600;
   font-size: .6rem;
   margin: 0 .5rem;
@@ -123,13 +127,6 @@ footer {
   background-color: black;
   color: #0099FF;
   border: 2px solid #0099FF;
-}
-
-#main {
-  width: 100%;
-  min-height: 70vh;
-  padding: 0;
-  position: relative;
 }
 
 /* FOOTER */
@@ -176,6 +173,12 @@ main {
   min-height: 60vh;
   position: relative;
   text-align: center;
+}
+.dat  {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: right;
+  width: 90%;
 }
 .container {
   background-color: rgba(0,0,0,.2);

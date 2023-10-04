@@ -1,11 +1,9 @@
-
-/*
-
-*conditional statement
-*changing the color from light to dark buttons
-*change the background color of the all body when user clicks on the buton with the sun on which is writen lightb.
-
+/* conditional statement
+* changing the color from light to dark buttons
+* change the background color of the all body when user clicks on the buton with the sun on which is writen lightb.
 */
+
+
 
 // add the the class .coloured to the body when the light button is clicked
 const changeColor = () => {
@@ -18,9 +16,16 @@ const removeColor = () =>{
     document.body.classList.remove("coloured");
 }
 
+const header = document.getElementById('onehead');
+const today = document.getElementById('today');
 const information = document.getElementById('information');
 const carNameContainer = document.querySelector('.car_name');
 const wrapper = document.getElementById('wrap');
+
+// Displaying date, day and time
+
+const todayDate = new Date(); 
+today.innerHTML = todayDate;
 
 // Conditional statement
 
@@ -40,4 +45,5 @@ const eastAfrica = () => {
         country += countries[inchi] + "<br>"
     }
     carNameContainer.innerHTML = country;   
+    alert('congratulation');
 }
