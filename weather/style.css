@@ -175,4 +175,55 @@ main {
   width:100%;
   min-height: 60vh;
   position: relative;
+  text-align: center;
+}
+.container {
+  background-color: rgba(0,0,0,.2);
+  width: 90%;
+  padding: 2rem 0;
+  margin: 2rem auto;
+}
+.head {
+  color: #0099FF;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+.small {
+  color: yellowgreen;
+  font-weight: 500;
+  opacity: .7;
+  padding: 10px 0;
+  text-align: center;
+}
+.hidding {
+  display: none;
+}
+.clickme {
+  padding:10px 20px;
+  background-color: #0099FF;
+  color: blueviolet;
+  border-radius: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+  font-size: 1.3rem;
+}
+#information {
+  color: blueviolet;
+  font-weight: 900;
+  font-size: larger;
+}
+.car_name {
+  font-size: 1rem;
+  color: #29054B;
+  font-weight: 900;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #0099FF;
+  width: 70%;
+  margin: auto;
+
 }
